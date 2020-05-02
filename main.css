@@ -1,0 +1,13 @@
+
+body {
+  background: url('assets/freedom.jpg') no-repeat center center fixed;
+}
+
+#quote {
+  text-decoration-style: solid;
+  font-style: normal;
+  transform-style: flat;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+}
