@@ -1,13 +1,21 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
 body {
   background: url('assets/freedom.jpg') no-repeat center center fixed;
 }
 
-#quote {
-  text-decoration-style: solid;
-  font-style: normal;
-  transform-style: flat;
+.quote {
   text-transform: uppercase;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  font-family: 'Lora', arial, serif;
+}
+
+.box {
+  
 }
