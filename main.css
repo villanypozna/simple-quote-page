@@ -14,7 +14,25 @@ body {
   background-size: cover;
 
 }
+.box {
+  max-width: 100vw;
+  max-height: 500px;
+ 
+}
 
+.divhiv{
+   height: 20%;
+  width: 100%;
+}
+.divquote{
+  height: 40%;
+  width: 100%;
+}
+.divauthor{
+  height: 40%;
+  width: 100%;
+  
+}
 .quote {
   text-transform: uppercase;
   text-align: center;
@@ -23,26 +41,8 @@ body {
   padding: 0 1.5rem;
   
 }
-
-.box {
-  max-width: 100vw;
-  max-height: 100vh;
- 
-}
-
-.divhiv{
-  margin-top: -60px;
-}
-.divqutoe{
-  margin-top: -100px;
-  padding: 5% 10%;
-}
-.divauthor{
-  margin-top: -200px;
-  
-}
-
 .author {
   text-align: center;
   padding: 50px;
 }
+
