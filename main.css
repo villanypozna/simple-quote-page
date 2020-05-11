@@ -8,14 +8,41 @@
 
 body {
   background: url('assets/freedom.jpg') no-repeat center center fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+
 }
 
 .quote {
   text-transform: uppercase;
   text-align: center;
   font-family: 'Lora', arial, serif;
+  line-height: 2rem;
+  padding: 0 1.5rem;
+  
 }
 
 .box {
+  max-width: 100vw;
+  max-height: 100vh;
+ 
+}
+
+.divhiv{
+  margin-top: -60px;
+}
+.divqutoe{
+  margin-top: -100px;
+  padding: 5% 10%;
+}
+.divauthor{
+  margin-top: -200px;
   
+}
+
+.author {
+  text-align: center;
+  padding: 50px;
 }
